@@ -1,0 +1,18 @@
+body {
+    background-image: url(back-lines.png);
+    background-size: cover;
+}
+
+button {
+    display: inline-flex;
+padding: 20px 50px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+font-size: 20px;
+gap: 10px;
+}
+h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
