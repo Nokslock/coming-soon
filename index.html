@@ -61,12 +61,48 @@
           </div>
            <div class="col-lg-3"></div>
           <div class="col-12 text-center p-lg-3 p-1">
-            <button>Join the waitlist</button>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">Join the waitlist</button>
           </div>
         </div>
       </div>
     </section>
+    <!-- Modal -->
+<div class="modal fade" id="staticBackdrop3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered justify-content-center">
+        <div class="modal-content w-75">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel3">Get Notified 🛎️</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <form>
+                    <!-- Name input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <input type="text" id="name3" class="form-control" />
+                        <label class="form-label" for="name3">Name</label>
+                    </div>
 
+                    <!-- Email input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <input type="email" id="email3" class="form-control" />
+                        <label class="form-label" for="email3">Email address</label>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-center mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="checkbox3" checked />
+                        <label class="form-check-label" for="checkbox3">
+                            I have read and agree to the terms
+                        </label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary d-block mx-auto">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
     <section>
         <div class="container pt-lg-3 pt-1">
             <div class="row">
