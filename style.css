@@ -51,3 +51,39 @@ ul li a {
 #demo {
   font-size: 30px;
 }
+.logo-text {
+    width: 450px;
+    height: 120px;
+}
+.mobile-mock-up {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+      background-image: url(back-lines-dark-mobile.png);
+  }
+  .mobile-mock-up {
+    display: block;
+}
+.desktop-mock-up {
+    display: none;
+}
+  h1{
+    font-size: 3rem;
+  }
+  .logo-text {
+    width: 350px;
+    height: 100px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+      h1{
+    font-size: 2rem;
+  }
+  .logo-text {
+    width: 250px;
+    height: 70px;
+}
+}
